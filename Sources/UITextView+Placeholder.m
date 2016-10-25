@@ -141,6 +141,16 @@
     self.placeholderLabel.textColor = placeholderColor;
 }
 
+#pragma mark - Placeholder Font
+- (UIFont *)placeholderFont {
+    return self.placeholderLabel.font;
+}
+
+- (void)setPlaceholderFont:(UIFont *)font {
+    self.placeholderLabel.font = font;
+}
+
+
 
 #pragma mark `needsUpdateFont`
 

@@ -32,7 +32,7 @@ FOUNDATION_EXPORT const unsigned char UITextView_PlaceholderVersionString[];
 @property (nonatomic, strong) IBInspectable NSString *placeholder;
 @property (nonatomic, strong) NSAttributedString *attributedPlaceholder;
 @property (nonatomic, strong) IBInspectable UIColor *placeholderColor;
-
+@property (nonatomic, strong) IBInspectable UIFont *placeholderFont;
 + (UIColor *)defaultPlaceholderColor;
 
 @end
