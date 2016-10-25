@@ -5,7 +5,8 @@ UITextView+Placeholder
 [![CocoaPods](http://img.shields.io/cocoapods/v/UITextView+Placeholder.svg?style=flat)](http://cocoapods.org/?q=name%3AUITextView%2BPlaceholder)
 
 A missing placeholder for UITextView.
-
+Fork from https://github.com/devxoul/UITextView-Placeholder
+To support: add placeholder font.
 
 Installation
 ------------
@@ -13,7 +14,7 @@ Installation
 Use [CocoaPods](http://cocoapods.org).
 
 ```ruby
-pod 'UITextView+Placeholder', '~> 1.2'
+pod 'UITextView+Placeholder', :git => 'https://github.com/hanquochan/UITextView-Placeholder'
 ```
 
 
@@ -40,6 +41,7 @@ Then create `UITextView` and set `placeholder`.
 UITextView *textView = [[UITextView alloc] init];
 textView.placeholder = @"How are you?";
 textView.placeholderColor = [UIColor lightGrayColor]; // optional
+textView.placeholderFont = ... // UIFont (optional)
 textView.attributedPlaceholder = ... // NSAttributedString (optional)
 ```
 
